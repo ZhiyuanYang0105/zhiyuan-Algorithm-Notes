@@ -1,4 +1,4 @@
-package com.zhiyuan.basic;
+package com.zhiyuan.algorithm.basic;
 
 public class HelloWorld {
     public static void main(String[] args) {
