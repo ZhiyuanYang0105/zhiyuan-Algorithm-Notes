@@ -3,9 +3,9 @@ package com.zhiyuan.algorithm.sort;
 import com.zhiyuan.algorithm.util.ArrayUtils;
 
 public class SelectSort {
-    public static int[] selectSort(int[] arr) {
+    public static void selectSort(int[] arr) {
         if (arr == null || arr.length < 2) {
-            return arr;
+            return;
         }
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
@@ -19,6 +19,5 @@ public class SelectSort {
                 ArrayUtils.swap(arr, i, minIndex);
             }
         }
-        return arr;
     }
 }
